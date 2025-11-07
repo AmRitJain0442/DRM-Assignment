@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Stock Selection](#stock-selection)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project provides a comprehensive analysis of **FORTIS Healthcare Limited** stock, including:
 - Historical price and volume analysis
@@ -41,7 +41,7 @@ The analysis uses **real market data** from Yahoo Finance spanning 2 years (Nov 
 
 ---
 
-## 📈 Stock Selection
+## Stock Selection
 
 **Company:** FORTIS Healthcare Limited  
 **Ticker Symbol:** FORTIS.NS  
@@ -57,7 +57,7 @@ The analysis uses **real market data** from Yahoo Finance spanning 2 years (Nov 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DRM-ASSIGNMENT/
@@ -84,7 +84,7 @@ DRM-ASSIGNMENT/
 
 ---
 
-## 🔬 Analysis Components
+## Analysis Components
 
 ### 1. **Data Collection & Preprocessing**
 - Downloaded real-time data from Yahoo Finance API
@@ -130,29 +130,29 @@ DRM-ASSIGNMENT/
 
 ---
 
-## 🎯 Key Findings
+## Key Findings
 
 ### Stock Performance
-✅ **Exceptional Growth:** 200.7% return over 2 years  
-✅ **Moderate Volatility:** 30.52% annualized (typical for healthcare)  
-✅ **Lower Beta:** 0.78 vs market (defensive stock)  
-✅ **Positive Sharpe Ratio:** Risk-adjusted returns are positive  
+- **Exceptional Growth:** 200.7% return over 2 years  
+- **Moderate Volatility:** 30.52% annualized (typical for healthcare)  
+- **Lower Beta:** 0.78 vs market (defensive stock)  
+- **Positive Sharpe Ratio:** Risk-adjusted returns are positive  
 
 ### Forward Pricing Insights
-✅ **Contango Market:** Forward prices trade at premium to spot  
-✅ **1-Year Forward:** ₹1,074.44 (+5.34% premium)  
-✅ **3-Year Forward:** ₹1,192.20 (+16.88% premium)  
-✅ **Dividend Effect:** 0.8% yield reduces forward price by ~₹8.63/year  
+- **Contango Market:** Forward prices trade at premium to spot  
+- **1-Year Forward:** ₹1,074.44 (+5.34% premium)  
+- **3-Year Forward:** ₹1,192.20 (+16.88% premium)  
+- **Dividend Effect:** 0.8% yield reduces forward price by ~₹8.63/year  
 
 ### Risk Assessment
-⚠️ **Maximum Drawdown:** -15.62% (moderate downside risk)  
-⚠️ **VaR (95%):** -2.31% (daily 1-day VaR)  
-⚠️ **CVaR (95%):** -3.12% (expected loss beyond VaR)  
-✅ **Low Correlation:** 0.68 with NIFTY 50 (partial diversification benefit)  
+- **Maximum Drawdown:** -15.62% (moderate downside risk)  
+- **VaR (95%):** -2.31% (daily 1-day VaR)  
+- **CVaR (95%):** -3.12% (expected loss beyond VaR)  
+- **Low Correlation:** 0.68 with NIFTY 50 (partial diversification benefit)  
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -187,7 +187,7 @@ jupyter notebook FORTIS_DRM_Assignment.ipynb
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### Running the Complete Analysis
 
@@ -219,7 +219,7 @@ dividend_yield = 0.008     # Adjust based on stock
 
 ---
 
-## 📊 Results & Outputs
+## Results & Outputs
 
 ### Generated CSV Files
 
@@ -233,17 +233,17 @@ dividend_yield = 0.008     # Adjust based on stock
 ### Sample Visualizations
 
 The notebook includes 15+ professional visualizations:
-- 📈 Time series plots (Price, Volume, Returns)
-- 📊 Distribution histograms and Q-Q plots
-- 🕯️ OHLC candlestick charts
-- 📉 Drawdown analysis
-- 🎯 Technical indicator overlays
-- 🔗 Correlation heatmaps
-- 📐 Forward pricing curves
+- Time series plots (Price, Volume, Returns)
+- Distribution histograms and Q-Q plots
+- OHLC candlestick charts
+- Drawdown analysis
+- Technical indicator overlays
+- Correlation heatmaps
+- Forward pricing curves
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 ### Programming & Data Analysis
 - **Python 3.10** - Core programming language
@@ -264,7 +264,7 @@ The notebook includes 15+ professional visualizations:
 
 ---
 
-## 📡 Data Sources
+## Data Sources
 
 ### Primary Data Source
 **Yahoo Finance API** (via yfinance library)
@@ -280,14 +280,14 @@ The notebook includes 15+ professional visualizations:
 **Indian Government Securities (G-Sec)** - 10-year bond yield (6% assumption)
 
 ### Data Quality Assurance
-✅ All data verified against Yahoo Finance web interface  
-✅ 494 trading days with no gaps  
-✅ Prices match screenshot verification (₹1,020)  
-✅ Volume data cross-checked with NSE records  
+- All data verified against Yahoo Finance web interface  
+- 494 trading days with no gaps  
+- Prices match screenshot verification (₹1,020)  
+- Volume data cross-checked with NSE records  
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### Main Analysis Notebook
 `FORTIS_DRM_Assignment.ipynb` - Contains 40+ cells with:
@@ -306,17 +306,17 @@ The notebook includes 15+ professional visualizations:
 
 ---
 
-## 🎓 Academic Context
+## Academic Context
 
 ### Assignment Requirements
 This project fulfills the requirements for DRM Assignment 1:
-- ✅ Stock selection and data collection
-- ✅ Comprehensive statistical analysis
-- ✅ Risk metrics calculation (VaR, CVaR, Sharpe Ratio)
-- ✅ Technical indicator implementation
-- ✅ Forward pricing with dividend yield analysis
-- ✅ Professional visualizations
-- ✅ Written interpretation and discussion
+- Stock selection and data collection
+- Comprehensive statistical analysis
+- Risk metrics calculation (VaR, CVaR, Sharpe Ratio)
+- Technical indicator implementation
+- Forward pricing with dividend yield analysis
+- Professional visualizations
+- Written interpretation and discussion
 
 ### Learning Objectives Achieved
 1. Real-world financial data acquisition and preprocessing
@@ -328,7 +328,7 @@ This project fulfills the requirements for DRM Assignment 1:
 
 ---
 
-## 🔍 Key Formulas Used
+## Key Formulas Used
 
 ### Daily Returns
 ```
@@ -358,7 +358,7 @@ F = S₀ × e^((r - q) × T)
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Student:** Amrit Lahari  
 **Student ID:** 2023A4PS0442P  
@@ -369,13 +369,13 @@ F = S₀ × e^((r - q) × T)
 
 ---
 
-## 📄 License
+## License
 
 This project is created for academic purposes as part of the DRM course curriculum.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Yahoo Finance for providing real-time market data
 - NSE (National Stock Exchange of India) for reliable trading data
@@ -384,7 +384,7 @@ This project is created for academic purposes as part of the DRM course curricul
 
 ---
 
-## 📝 Version History
+## Version History
 
 - **v1.0** (Nov 7, 2025) - Initial release with complete analysis
   - Historical data analysis
@@ -395,19 +395,19 @@ This project is created for academic purposes as part of the DRM course curricul
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 Potential additions for extended analysis:
-- [ ] Monte Carlo simulation for price forecasting
-- [ ] GARCH models for volatility prediction
-- [ ] Options pricing (Black-Scholes model)
-- [ ] Portfolio optimization with multiple stocks
-- [ ] Sentiment analysis from news articles
-- [ ] Machine learning predictions
+- Monte Carlo simulation for price forecasting
+- GARCH models for volatility prediction
+- Options pricing (Black-Scholes model)
+- Portfolio optimization with multiple stocks
+- Sentiment analysis from news articles
+- Machine learning predictions
 
 ---
 
-**⭐ If you found this analysis helpful, please star the repository!**
+**If you found this analysis helpful, please star the repository!**
 
 ---
 
