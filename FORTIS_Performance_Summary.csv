@@ -1,0 +1,20 @@
+Metric,Value
+Stock Symbol,FORTIS.NS
+Start Date,2023-11-08
+End Date,2025-11-07
+Trading Days,494
+Start Price (INR),339.15
+End Price (INR),1020.00
+Total Return (%),200.75
+Mean Daily Return (%),0.2425
+Annualized Return (%),61.12
+Daily Volatility (%),1.9550
+Annualized Volatility (%),31.03
+Sharpe Ratio (Annualized),1.7760
+Maximum Drawdown (%),-20.94
+VaR 95% (%),-2.7179
+CVaR 95% (%),-3.5324
+Beta (vs NIFTY 50),0.6159
+Correlation with NIFTY 50,0.2607
+Skewness,0.4378
+Kurtosis,0.9706
